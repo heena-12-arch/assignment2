@@ -1,0 +1,27 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: brown;
+}
+
+h1{
+    color: rgb(49, 49, 168);
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration-style: solid;
+    text-decoration-thickness: 3px;
+    text-decoration-line: underline;
+}
+
+nav{
+    background-color: rgb(41, 130, 165);
+    border: none;
+    position: absolute;
+    top:93%;
+    left: 50%;
+    transform: translate(-40% ,-40%);
+    padding: 20px 50px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
