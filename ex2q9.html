@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>ex2q9</title>
+</head>
+<body>
+<h1>FEEDBACK FORM</h1>
+<form method="get"  action="login.html"  autocomplete="on">
+<label>Customer:</label>
+<input type=text name="cname"  placeholder="Enter Customername"  size=40   /> <br>
+<label>Gender:</label>
+<input type=radio name=gender  value="m"/> 
+<label> Male </label> 
+<input type=radio  name=gender  value="f"/> 
+<label> Female </label><br>
+<label> Laptops: </label>
+<input type=checkbox   name=laptops value="hp"/> 
+<label>Hp </label> 
+<input type=checkbox   name=laptops  value="dell"/> 
+<label> Dell </label> <br>
+<label> processors: </label>
+<select name=class >
+        <option value="default"> Choose Your Processor </option>
+       <option value="ic"> intel 3 </option>
+       <option value="ics">intel 5  </option>  
+       <option value="icss"> intel 7 </option>
+</select> <br>
+<label>Feedback </label>
+<textarea rows=10  cols=60 name=feedback  placeholder="Feedback"></textarea> <br>
+<input type=submit />
+<input type=reset />
+</form>
+</body>
+</html>

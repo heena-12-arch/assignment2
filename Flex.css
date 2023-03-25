@@ -1,0 +1,54 @@
+.container{
+    border: solid red 2px;
+    height: 800px;
+    width: 800px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    align-items: space;
+    background-color: black;
+
+}
+
+.container > div{
+    border: solid rebeccapurple 2px; 
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    color: beige;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    animation-name:animateOne;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+
+
+}
+.container > div:hover{
+    background-color: aquamarine;
+    color: brown;
+    transform: rotate(360deg) scaleY(1.5) skewY(45deg) translate(100px);
+    transition: 2s;
+}
+
+@keyframes animateOne{
+    from{
+        transform: rotate(0deg);
+        background-color: blueviolet;
+        left:0px;
+    }
+    50%{
+        left:100px;
+        top: 100px;
+    }
+    to{
+        transform: rotate(360deg);
+        background-color: rgb(233, 236, 16);
+        left:200px;
+    }
+}
